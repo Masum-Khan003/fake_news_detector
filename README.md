@@ -101,6 +101,8 @@ GET /
 {
   "status": "API is running"
 }
+---
+
 🔹 Prediction Endpoint
 POST /predict
 Request:
@@ -114,32 +116,5 @@ Response:
 }
 🔹 Interactive API Docs
 http://localhost:8000/docs
-🧑‍💻 Setup & Installation
-1. Clone Repository
-git clone https://github.com/your-username/fake-news-detector.git
-cd fake-news-detector
-2. Install Dependencies
-pip install -r requirements.txt
-3. Add Model Files
-4. Run Server
-uvicorn app.main:app --reload
-5. Access API
-http://127.0.0.1:8000/docs
-🐳 Docker Deployment
-Build Image
-docker build -t fake-news-api .
-Run Container
-docker run -p 8000:8000 fake-news-api
 
-📄 License
 
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Masum Khan
-Data Scientist | CTO | Tech Strategist
-
-⭐ Support
-
-If you find this project useful, consider giving it a star ⭐ on GitHub.
